@@ -1,20 +1,120 @@
-<<<<<<< HEAD
-# React + Vite
+# Task App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern task management web application built with React and Tailwind CSS. The application provides a simple and responsive interface for creating, organizing, and managing tasks with a focus on usability and clean UI design.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View the live website](render-deployment-url)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Create tasks
+* Set task priorities
+* Persist task data using browser local storage
+* Responsive user interface
+* Clean and modern UI
+* Component-based React architecture
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Tasks-App
->>>>>>> 3bd9ba03fff771f88159a14bc465287e7ee26be1
+* React.js
+* Tailwind CSS
+* Vite
+* JavaScript
+* Browser Local Storage
+
+## Getting Started
+
+### Prerequisites
+
+For local development, make sure you have the following installed:
+
+* Node.js
+* npm
+
+Node.js and npm are used for installing dependencies, running the development server, and creating production builds. They are not required by users to access the deployed website.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project directory:
+
+```bash
+cd <project-directory>
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+### Run the Development Server
+
+Start the Vite development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## Build for Production
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+The production files will be generated in the `dist` directory.
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── ...
+```
+
+The project follows a component-based React architecture, with reusable UI components separated from page-level components.
+
+## Data Persistence
+
+Task data is stored in the browser using `localStorage`. This allows tasks to remain available after refreshing the page or reopening the website in the same browser.
+
+Because the application currently uses client-side storage, task data is specific to the browser and device where it was created.
+
+## Design
+
+The application focuses on a clean and minimal interface with an emphasis on:
+
+* Clear visual hierarchy
+* Simple task creation and management
+* Responsive layouts
+* Consistent spacing and typography
+* Intuitive interactions
+
+## License
+
+This project is open source in initial development.
+
+All rights are reserved by the author unless otherwise stated. You may view the source code for reference, but permission is not granted to copy, modify, distribute, or use the code commercially without explicit permission from the author.
+
+## More
+
+Built with React and Tailwind CSS as a frontend web development project, with a focus on component architecture, state management, responsive UI design, and client-side data persistence.
